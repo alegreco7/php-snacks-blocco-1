@@ -13,4 +13,3 @@ foreach ($partite as $partita) {
     $output = $partita["squadra_casa"] . " - " . $partita["squadra_ospite"] . " | " . $partita["punti_casa"] . "-" . $partita["punti_ospite"];
     echo $output . "<br>";
 }
-.
